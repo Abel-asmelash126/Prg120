@@ -1,14 +1,10 @@
-<!DOCTYPE html>
-<html>
-<head>
-<title>Intro</title>
-</head>
-<body>
-<h2>Eksempler til tema 1</h2>
-<ul>
-<h3> hva skjer i kveld </h3>
-<li><a href="eksempel-1.html" target="_blank">Eksempel 1</a></li>
-<li><a href="eksempel-2.html" target="_blank">Eksempel 2 </a></li>
-</ul>
-</body>
-</html>
+<?php    /* Eksempel 1 */
+/*
+/*    Programmet mottar fra et HTML-skjema et fornavn og et etternavn ved POST-metoden
+/*    Programmet skriver ut en "god dag"-melding med personens navn 
+*/
+  $fornavn=$_POST ["fornavn"];
+  $etternavn=$_POST ["etternavn"];  
+	
+  print ("God dag $fornavn $etternavn <br />");  
+?>
